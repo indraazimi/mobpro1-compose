@@ -57,7 +57,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     GaleriHewan(data[index]) {
-                        index++
+                        index = if (index == data.size-1) 0 else index+1
                     }
                 }
             }
