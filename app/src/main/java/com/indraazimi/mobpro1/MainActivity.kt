@@ -26,9 +26,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import com.indraazimi.mobpro1.model.Hewan
 import com.indraazimi.mobpro1.ui.theme.Mobpro1Theme
 
 class MainActivity : ComponentActivity() {
+
+    private val data = getData()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -41,6 +45,16 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    private fun getData(): List<Hewan> {
+        return listOf(
+            Hewan("Ayam", R.drawable.ayam),
+            Hewan("Bebek", R.drawable.bebek),
+            Hewan("Domba", R.drawable.domba),
+            Hewan("Kambing", R.drawable.kambing),
+            Hewan("Sapi", R.drawable.sapi),
+        )
     }
 }
 
