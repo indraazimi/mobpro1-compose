@@ -1,25 +1,14 @@
-# Mobpro 1
+# Galeri Hewan
 
-Ini adalah repository bahan praktik buku Pemrograman Android Dasar.
+Aplikasi Android sederhana yang menampilkan gambar dan nama hewan. Ketika tombol lanjut diklik, maka gambar dan nama hewan berganti ke hewan selanjutnya. Jika data hewan telah habis, maka aplikasi kembali menampilkan data hewan pertama.
 
-Terdapat 14 branch untuk 13 modul, dan 1 modul dikerjakan 1 minggu.
+<img src="screenshots/main.png" alt="Tampilan utama" width="250">
 
-| Nama Branch        | Nama Modul                        |
-|--------------------|-----------------------------------|
-| master             | Modul 01: Introduction            |
-| 02-first-app       | Modul 02: Build Your First App    |
-| 03-using-images    | Modul 03: Working with Images     |
-| 04-user-input      | Modul 04: Get User Input          |
-| 05-navigation      | Modul 05: App Navigation          |
-| 07-scrollable-list | Modul 07: Scrollable List         |
-| 08-navigate-data   | Modul 08: Navigate with Data      |
-| 09-room-database   | Modul 09: Room Database           |
-| 10-dialog-prefs    | Modul 10: Dialog and Preferences  |
-| 12-internet        | Modul 12: Connect to Internet     |
-| 13-best-practices  | Modul 13: Internet Best Practices |
-| 14-user-login      | Modul 14: Authenticate User       |
-| 15-sending-data    | Modul 15: Sending Data to Server  |
-| static-api         | API statis untuk modul 12-14      |
+Di modul ini kita belajar:
+- membuat aplikasi Android dengan gambar
+- memberikan data di Composable ke Composable lain
+- menangani event di Composable dari Composable lain
+- melakukan debugging aplikasi jika error
 
 Punya pertanyaan atau masukan? Silahkan disampaikan melalui issue repository.
 
