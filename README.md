@@ -1,14 +1,16 @@
 # Aplikasi Catatan
 
-Aplikasi Android untuk membuat catatan sederhana. Di modul ini, pengembangan baru sampai pada menampilkan catatan dalam bentuk list menggunakan `LazyColumn`.
+Aplikasi Android untuk membuat catatan sederhana. Di modul ini, kita membuat form tambah catatan dan form ubah catatan menggunakan navigasi yang membawa data.
 
-<img src="screenshots/main.png" alt="Tampilan utama" width="250">
+| Tampilan Utama                               | Form Tambah Catatan                          | Form Ubah Catatan                            |
+|----------------------------------------------|----------------------------------------------|----------------------------------------------|
+| <img src="screenshots/main.png" width="200"> | <img src="screenshots/baru.png" width="200"> | <img src="screenshots/ubah.png" width="200"> |
 
 Di modul ini kita belajar:
-- membuat aplikasi berbentuk list
-- menangani keadaan jika list kosong
-- membuat item pada list bisa diklik
-- membuat Floating Action Button (FAB)
+- menggunakan fitur cherry-pick dari Git
+- menyelesaikan (resolve) Git conflict
+- melakukan navigasi dengan data
+- membuat form ubah data yang baik
 
 Punya pertanyaan atau masukan? Silahkan disampaikan melalui issue repository.
 
