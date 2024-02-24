@@ -1,14 +1,16 @@
 # Hitung BMI
 
-Aplikasi Android untuk menghitung body mass index (BMI) sehingga pengguna dapat mengetahui apakah berat badannya ideal, gemuk atau kurus.
+Aplikasi Android untuk menghitung body mass index (BMI) sehingga pengguna dapat mengetahui apakah berat badannya ideal, gemuk atau kurus. Di sini kita menambahkan tampilan about sehingga pengguna dapat berpindah dari tampilan utama ke tampilan berikutnya menggunakan menu. Kita juga menambahkan tombol bagikan sehingga pengguna dapat berbagi data ke aplikasi lain.
 
-<img src="screenshots/main.png" alt="Tampilan utama" width="250">
+| Tampilan Utama                               | Tampilan About                                |
+|----------------------------------------------|-----------------------------------------------|
+| <img src="screenshots/main.png" width="200"> | <img src="screenshots/about.png" width="200"> |
 
 Di modul ini kita belajar:
-- meminta input data dari pengguna
-- memproses data dari pengguna tanpa error
-- memberi feedback jika input tidak sesuai harapan
-- membuat tampilan yang bisa di-scroll di HP layar kecil
+- membuat aplikasi multi-screen
+- membuat menu di TopAppBar
+- membuat tombol Up di screen kedua
+- bernavigasi ke aplikasi lain dengan Intent
 
 Punya pertanyaan atau masukan? Silahkan disampaikan melalui issue repository.
 
