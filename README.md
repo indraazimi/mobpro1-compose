@@ -1,14 +1,17 @@
 # Galeri Hewan
 
-Aplikasi Android sederhana yang menampilkan gambar hewan dalam bentuk grid. Data berasal dari static API.
+Aplikasi Android sederhana yang menampilkan gambar hewan dalam bentuk grid. Data berasal dari [REST API](https://gh.d3ifcool.org/).
 
-<img src="screenshots/main.png" alt="Tampilan utama" width="250">
+| Tampilan Loading                                | Tampilan Utama                               | Tampilan Error                                |
+|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
+| <img src="screenshots/loading.png" width="200"> | <img src="screenshots/main.png" width="200"> | <img src="screenshots/error.png" width="200"> |
 
 Di modul ini kita belajar:
-- mengambil data JSON dari internet (API)
-- memproses JSON menjadi objek Kotlin
-- menampilkan gambar dari internet
-- membuat tampilan grid dan Box
+- membuat indikator loading image
+- menangani gambar gagal di-load
+- membuat indikator loading JSON
+- menangani JSON gagal di-load
+- memigrasikan API static ke dynamic
 
 Punya pertanyaan atau masukan? Silahkan disampaikan melalui issue repository.
 
