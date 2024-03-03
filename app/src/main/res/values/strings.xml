@@ -9,4 +9,5 @@
 
 <resources>
     <string name="app_name">Mobpro 1</string>
+    <string name="list_kosong">Belum ada data</string>
 </resources>
