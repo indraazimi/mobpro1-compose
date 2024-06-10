@@ -25,6 +25,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import com.indraazimi.mobpro1.model.Hewan
 import com.indraazimi.mobpro1.ui.theme.Mobpro1Theme
 
 class MainActivity : ComponentActivity() {
@@ -42,6 +43,14 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainScreen() {
+    val data = listOf(
+        Hewan("Ayam", R.drawable.ayam),
+        Hewan("Bebek", R.drawable.bebek),
+        Hewan("Domba", R.drawable.domba),
+        Hewan("Kambing", R.drawable.kambing),
+        Hewan("Sapi", R.drawable.sapi),
+    )
+
     Scaffold(
         topBar = {
             TopAppBar(
