@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (c) 2024 Indra Azimi. All rights reserved.
+  ~ Copyright (c) 2024-2025 Indra Azimi. All rights reserved.
   ~
   ~ Dibuat untuk kelas Pemrograman untuk Perangkat Bergerak 1.
   ~ Dilarang melakukan penggandaan dan atau komersialisasi,
@@ -9,4 +9,10 @@
 
 <resources>
     <string name="app_name">Mobpro 1</string>
+    <string name="bmi_intro">BMI, atau Body Mass Index merupakan cara untuk menentukan apakah berat badanmu ideal atau tidak. Cobalah sekarang!</string>
+    <string name="berat_badan">Berat badan</string>
+    <string name="tinggi_badan">Tinggi badan</string>
+    <string name="pria">Pria</string>
+    <string name="wanita">Wanita</string>
+    <string name="hitung">Hitung</string>
 </resources>
