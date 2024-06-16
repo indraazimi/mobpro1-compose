@@ -1,3 +1,10 @@
+# Copyright (c) 2024-2025 Indra Azimi. All rights reserved.
+#
+# Dibuat untuk kelas Pemrograman untuk Perangkat Bergerak 1.
+# Dilarang melakukan penggandaan dan atau komersialisasi,
+# sebagian atau seluruh bagian, baik cetak maupun elektronik
+# terhadap project ini tanpa izin pemilik hak cipta.
+
 [versions]
 agp = "8.8.1"
 kotlin = "2.0.0"
@@ -8,6 +15,7 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.10.0"
 composeBom = "2025.02.00"
+navCompose = "2.8.7"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -24,6 +32,7 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navCompose" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
