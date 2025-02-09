@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Indra Azimi. All rights reserved.
+ * Copyright (c) 2024-2025 Indra Azimi. All rights reserved.
  *
  * Dibuat untuk kelas Pemrograman untuk Perangkat Bergerak 1.
  * Dilarang melakukan penggandaan dan atau komersialisasi,
@@ -9,6 +9,7 @@
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id("com.android.application") version "8.2.2" apply false
-    id("org.jetbrains.kotlin.android") version "1.9.0" apply false
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.compose) apply false
 }
