@@ -1,16 +1,16 @@
 # Aplikasi Catatan
 
-Aplikasi Android untuk membuat catatan sederhana. Di modul ini, kita membuat form tambah catatan dan form ubah catatan menggunakan navigasi yang membawa data.
+Aplikasi Android untuk membuat catatan sederhana. Di modul ini, kita menambahkan database, sehingga catatan pengguna bisa disimpan.
 
 | Tampilan Utama                               | Form Tambah Catatan                          | Form Ubah Catatan                            |
 |----------------------------------------------|----------------------------------------------|----------------------------------------------|
 | <img src="screenshots/main.png" width="200"> | <img src="screenshots/baru.png" width="200"> | <img src="screenshots/ubah.png" width="200"> |
 
 Di modul ini kita belajar:
-- menggunakan fitur cherry-pick dari Git
-- menyelesaikan (resolve) Git conflict
-- melakukan navigasi dengan data
-- membuat form ubah data yang baik
+- mengambil data dari database
+- menyimpan data baru ke database
+- meng-update data di database
+- menghapus data dari database
 
 Punya pertanyaan atau masukan? Silahkan disampaikan melalui issue repository.
 
