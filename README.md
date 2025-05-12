@@ -1,16 +1,16 @@
 # Galeri Hewan
 
-Aplikasi Android sederhana yang menampilkan gambar hewan dalam bentuk grid. Data berasal dari [REST API](https://gh.d3ifcool.org/). Pengguna bisa login menggunakan Google Sign-In.
+Aplikasi Android yang menampilkan gambar hewan dalam bentuk grid. Data berasal dari [REST API](https://gh.d3ifcool.org/). Pengguna bisa login menggunakan Google Sign-In dan menambahkan data hewan baru.
 
-| Tampilan Utama                               | Tampilan Login                                | Tampilan Profil                                |
-|----------------------------------------------|-----------------------------------------------|------------------------------------------------|
-| <img src="screenshots/main.png" width="200"> | <img src="screenshots/login.png" width="200"> | <img src="screenshots/profil.png" width="200"> |
+| Tampilan Utama                               | Form Tambah Data                               |
+|----------------------------------------------|------------------------------------------------|
+| <img src="screenshots/main.png" width="200"> | <img src="screenshots/tambah.png" width="200"> |
 
 Di modul ini kita belajar:
-- membuat fitur login dengan Google
-- menyimpan data akun pengguna
-- membuat tampilan profil
-- membuat fitur logout
+- mengambil gambar dari kamera perangkat
+- membuat dialog untuk form tambah data
+- mengirim data teks dan image ke server
+- menampilkan data sesuai yang login
 
 Punya pertanyaan atau masukan? Silahkan disampaikan melalui issue repository.
 
