@@ -25,7 +25,7 @@ Punya pertanyaan atau masukan? Silahkan disampaikan melalui issue repository.
 
 ## Lisensi
 
-    Copyright (c) 2024-2025 Indra Azimi. All rights reserved.
+    Copyright (c) 2024-2026 Indra Azimi. All rights reserved.
 
     Dibuat untuk buku berjudul "Pemrograman Android Dasar".
     Dilarang melakukan penggandaan dan atau komersialisasi,
